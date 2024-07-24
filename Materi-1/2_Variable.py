@@ -2,8 +2,8 @@ nama = "Ray" #String
 umur = 23 #Int
 berat_badan = 68 #Nama variable _
 tinggi_badan = 1.7 #Decimal
-var_list = [1, 2, 3, 4, 5] # List
-var_tuple = (1, 2, 3, 4, 5) # Tuple
+var_list = [1, 2, 3, 4, 5] # List (bisa di ubah datanya)
+var_tuple = (1, 2, 3, 4, 5) # Tuple (tidak bisa di ubah datanya)
 var_colection = {1, 2, 3, 4, 5} # Colection
 var_colection_dictionary = {'nama': 'Rayandra', 'umur': 23} # Colection Dictionary
 
