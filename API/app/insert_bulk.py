@@ -35,6 +35,7 @@ def bulk_insert_from_csv(filename: str) -> None:
         conn.commit()
         logging.info(f"Bulk insert successful: {len(data)} records added")
     except pyodbc.Error as e:
+        conn.rollback()
         logging.error(f"Error in bulk insert: {e}")
     finally:
         conn.close()

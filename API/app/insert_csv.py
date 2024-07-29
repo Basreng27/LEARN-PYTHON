@@ -39,6 +39,7 @@ def insert(name:str):
             conn.commit()
             logging.info(f"Success Add Data: {name}")
         except pyodbc.Error as e:
+            conn.rollback()
             logging.error(f"Error inserting data: {e}")
         finally:
             conn.close()
