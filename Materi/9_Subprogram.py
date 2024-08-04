@@ -1,3 +1,7 @@
+# // Membuat Hasil Bagi Di Bulatkan
+a = 9 // 5
+print(a)
+
 # Fungsi
 def luas_persegi_panjang(panjang, lebar):
     return panjang * lebar

@@ -1,7 +1,8 @@
-# Merubah Tipe Data
-a = '5'
-int(a) #floast(), str(), bool()
-print(a)
+print('String Kutip Satu')
+print("String Kutip Dua")
+print("""String 
+        Kutip 
+        Tiga""")
 
 # Merubah Huruf Besar Kecil
 text = "hallo ges"

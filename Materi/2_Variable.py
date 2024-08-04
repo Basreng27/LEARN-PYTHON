@@ -23,3 +23,10 @@ print(PI)
 
 # type digunakan untuk melihat tipe data varibale
 print(type(bmi))
+
+a = ''
+del a # Mengahpus Wariable a
+
+# Merubah Tipe Data
+b = '6'
+print(int(b)) # typeData(variable)
